@@ -7,9 +7,8 @@ Given(`que esteja na página home da Gopag`, () => {
 	//cy.visit('/')
 });
 
-When(`o usuário pesquisa por {string}`, (str) => {
-	console.log(args1);
-	return true;
+When(`o usuário pesquisa por {string}`, (texto) => {
+	Search.pesquisar_por_produto()
 });
 
 Then(`uma imagem de erro sem resultados é mostrada`, () => {
