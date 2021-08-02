@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 import { Given, When, Then, And, Before } from 'cypress-cucumber-preprocessor/steps'
 import { Search } from '../../pages/search_copag/index'
+import checkProdutos from "../../support/assertions/checkProduto";
 
 Given(`que esteja na página home da Gopag`, () => {
     Search.acessar_site()
@@ -12,7 +13,7 @@ When(`o usuário pesquisa por {string}`, (texto) => {
 });
 
 Then(`uma imagem de erro sem resultados é mostrada`, () => {
-	return true;
+	Search.imagem_nenhum_resultado()
 });
 
 And(`nenhum produto é listado`, () => {
