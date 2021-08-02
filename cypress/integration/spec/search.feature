@@ -8,8 +8,7 @@ Feature: Pesquisa
 
     Scenario: Pesquisar um produto que não existe
         When o usuário pesquisa por "digimon"
-        Then uma imagem de erro sem resultados é mostrada 
-        And nenhum produto é listado 
+        Then uma imagem de erro sem resultados é mostrada
 
     Scenario: Pesquisar um produto que existe
         When o usuário pesquisa "pokemon"
