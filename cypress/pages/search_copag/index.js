@@ -16,7 +16,16 @@ export class Search extends Base {
         cy.get(src.IMG_ERROR).should('be.visible');
     }
 
-    static nenhum_produto_encontrado() {
-        
+    static pesquisar_produto() {
+        cy.get(src.INPUT_PESQUISA).type("pokemon");
+        super.clickOnElement(src.BTN_PESQUISA)
+    }
+
+    static lista_de_produtos() {
+        cy.get(src.CATALOGO_PRODUTOS).should('be.visible');
+    }
+
+    static valida_texto_produto() {
+        cy.get(src.VALID_TEXT_PRODUTO).title('contain', 'pokemon');
     }
 }
