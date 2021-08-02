@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+
 import { Given, When, Then, And, Before } from 'cypress-cucumber-preprocessor/steps'
 import { Search } from '../../pages/search_copag/index'
 
