@@ -8,7 +8,15 @@ export class Search extends Base {
     }
 
     static pesquisar_por_produto(texto) {
-        cy.get(src.INPUT_PESQUISA, { timeout: 60000 }).type("digimon");
+        cy.get(src.INPUT_PESQUISA).type("digimon");
         super.clickOnElement(src.BTN_PESQUISA)
+    }
+
+    static imagem_nenhum_resultado() {
+        cy.get(src.IMG_ERROR).should('be.visible');
+    }
+
+    static nenhum_produto_encontrado() {
+        
     }
 }
