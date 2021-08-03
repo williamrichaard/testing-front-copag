@@ -56,6 +56,7 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 ## Pré-requisitos
 
 :warning: [Node](https://nodejs.org/en/download/)
+
 :warning: [Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
 
 ...
