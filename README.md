@@ -70,7 +70,7 @@ No terminal, clone o projeto:
 ```
 git clone https://github.com/williamrichaard/testing-front-copag.git
 ```
-Entre na pasta do projeto:
+Acesse a pasta do projeto no terminal/cmd:
 
 ```
 cd testing-front-copag
@@ -146,10 +146,17 @@ Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementada
 
 :memo: Tarefa 3 
 
-## Desenvolvedores/Contribuintes :octocat:
+## Desenvolvedores/Contribuidores :octocat:
 
 | [<img src="https://avatars.githubusercontent.com/u/55960615?v=4" width=115><br><sub>William Richard</sub>](https://github.com/williamrichaard) |  [<img src="https://avatars.githubusercontent.com/u/55960615?v=4" width=115><br><sub>William Richard</sub>](https://github.com/williamrichaard) |  [<img src="https://avatars.githubusercontent.com/u/55960615?v=4" width=115><br><sub>William Richard</sub>](https://github.com/williamrichaard) |
 | :---: | :---: | :---: 
+
+## Como contribuir para o projeto 💪
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
 
 ## Licença 
 
