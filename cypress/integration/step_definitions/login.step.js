@@ -4,29 +4,25 @@ import { Given, When, Then, And, Before } from 'cypress-cucumber-preprocessor/st
 import { Login } from '../../pages/login_copag/index'
 
 Given(`que esteja na página de login`, () => {
-    Login.acessar_pagina_login()
+	Login.acessar_pagina_login()
 });
 
-When(`logar com email {string} e senha {string} valida`, (args1, args2) => {
-    Login.logar_com_email_senha()
+When(`realizar login com dados válidos`, () => {
+	Login.logar_com_email_senha()
 });
 
-Then(`deverá ser direcionado para a home da loja`, () => {
-    Login.validar_homepage()
-});
-
-And(`o título da página deve ser {string}`, (args1) => {
-    Login.validar_o_title()
-});
-
-When(`logar com email {string} e senha {string} invalida`, (args1, args2) => {
-    Login.logar_credencial_invalida()
+Then(`deverá ser direcionado para a pagina de perfil`, () => {
+	Login.validar_homepage()
 });
 
 Then(`o título da página deve ser {string}`, (args1) => {
-    Login.validar_o_title()
+	Login.validar_o_title()
 });
 
-And(`uma mensagem de erro {string} de autenticação deve aparecer`, (args1) => {
-    cy.stepNoImplemented()
+When(`realizar login com erro {string}`, (type) => {
+	Login.logar_credencial_invalida(type)
+});
+
+Then(`a mensagem de erro deverá ser exibida {string}`, (args1) => {
+	Login.mensagem_erro_login()
 });
