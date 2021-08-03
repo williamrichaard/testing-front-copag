@@ -130,10 +130,6 @@ Se for necessário configurar algo antes de iniciar o banco de dados insira os c
 - [rimraf](https://www.npmjs.com/package/rimraf)
 - [cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 
-...
-
-Liste as tecnologias utilizadas no projeto que **não** forem reconhecidas pelo Github 
-
 ## Resolvendo Problemas :exclamation:
 
 Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
@@ -149,8 +145,6 @@ Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementada
 :memo: Tarefa 3 
 
 ## Desenvolvedores/Contribuintes :octocat:
-
-Liste o time responsável pelo desenvolvimento do projeto
 
 | [<img src="https://avatars.githubusercontent.com/u/55960615?v=4" width=115><br><sub>William Richard</sub>](https://github.com/williamrichaard) |  [<img src="https://avatars.githubusercontent.com/u/55960615?v=4" width=115><br><sub>William Richard</sub>](https://github.com/williamrichaard) |  [<img src="https://avatars.githubusercontent.com/u/55960615?v=4" width=115><br><sub>William Richard</sub>](https://github.com/williamrichaard) |
 | :---: | :---: | :---: 
