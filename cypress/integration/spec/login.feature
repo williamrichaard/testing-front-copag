@@ -6,17 +6,17 @@ Feature: Login
         Given que esteja na página de login
 
     Scenario: Tentativa de login com credenciais válidas
-        When logar com email "<email>" e senha "<senha>" valida
-        Then deverá ser direcionado para a home da loja
-        And o título da página deve ser "Loja Copag"
+        When realizar login com dados válidos
+        Then deverá ser direcionado para a pagina de perfil
+        And o título da página deve ser "Copag Loja"
 
     @regression
     Scenario Outline: Tentativa de login com credenciais inválidas
-        When logar com email "<email>" e senha "<senha>" invalida
-        Then o título da página deve ser "Login - Minha Loja"
-        And uma mensagem de erro "<error>" de autenticação deve aparecer
+        When realizar login com erro '<erro>'
+        Then a mensagem de erro deverá ser exibida '<mensagem>'
 
         Examples:
-            | email               | senha    | error                     |
-            | dev_teste@gmail.com | teste123 | Usuário e/ou senha errada |
-            |                     | teste123 | Email inválido            |
+            | erro            | mensagem                  |
+            | senha invalida  | Usuário e/ou senha errada |
+            | email em branco | Email inválido            |
+            | senha em branco | Preencha este campo.      |
