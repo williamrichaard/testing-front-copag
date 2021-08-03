@@ -66,7 +66,24 @@ Liste todas as dependencias e libs que o usuário deve ter instalado na máquina
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
+git clone https://github.com/williamrichaard/testing-front-copag.git
+```
+Entre na pasta do projeto:
+
+```
+cd testing-front-copag
+```
+
+Instale as dependecias:
+
+```
+npm install
+```
+
+Execute o teste da aplicação:
+
+```
+npm run cy:open
 ```
 
 ... 
