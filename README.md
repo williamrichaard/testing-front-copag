@@ -122,8 +122,13 @@ Se for necessário configurar algo antes de iniciar o banco de dados insira os c
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
-- [React PDF](https://react-pdf.org/)
+- [Javascript](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+- [Cypress](https://docs.cypress.io/guides/overview/why-cypress)
+- [Faker](https://www.npmjs.com/package/Faker)
+- [fs-extra](https://www.npmjs.com/package/fs-extra)
+- [jsonschema](https://www.npmjs.com/package/jsonschema)
+- [rimraf](https://www.npmjs.com/package/rimraf)
+- [cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 
 ...
 
