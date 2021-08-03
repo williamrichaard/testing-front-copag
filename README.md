@@ -153,6 +153,6 @@ Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementada
 
 ## Licença 
 
-The [MIT License]() (MIT)
+The [MIT License](https://github.com/williamrichaard/testing-front-copag/blob/main/LICENSE) (MIT)
 
 Copyright :copyright: Ano - Titulo do Projeto
