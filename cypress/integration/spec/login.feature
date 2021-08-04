@@ -1,16 +1,17 @@
-Feature: Login
+Feature: Autenticação
 
     Como usuário, desejo poder acessar minha conta para ver detalhes da conta
 
     Background:
         Given que esteja na página de login
 
+    @validLogin
     Scenario: Tentativa de login com credenciais válidas
         When realizar login com dados válidos
         Then deverá ser direcionado para a pagina de perfil
         And o título da página deve ser "Copag Loja"
 
-    @regression
+    @invalidLogin
     Scenario Outline: Tentativa de login com credenciais inválidas
         When realizar login com erro '<erro>'
         Then a mensagem de erro deverá ser exibida '<mensagem>'
