@@ -11,9 +11,11 @@ export class Login extends Base {
 
     static logar_com_email_senha() {
         cy.get(lg.INPUT_EMAIL).invoke('attr', 'type').should('contain', 'email')
-        cy.get(lg.INPUT_EMAIL).type('wrichaard@hotmail.com')
+        cy.get(lg.INPUT_EMAIL).type('wrichaard@hotmail.com', { delay: 100 })
+            .should('have.value', 'wrichaard@hotmail.com')
         cy.get(lg.INPUT_SENHA).invoke('attr', 'type').should('contain', 'password')
-        cy.get(lg.INPUT_SENHA).type('Cleane#94')
+        cy.get(lg.INPUT_SENHA).type('Cleane#94', { delay: 100 })
+            .should('have.value', 'Cleane#94')
         cy.wait(3000)
         super.clickOnElement(lg.BTN_LOGIN)
     }
