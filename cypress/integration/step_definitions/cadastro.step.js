@@ -3,7 +3,7 @@
 import { Given, When, Then, And, Before } from 'cypress-cucumber-preprocessor/steps'
 import { Cadastro } from '../../pages/cadastro_copag/index'
 
-Given(/^Given que esteja na página de login$/, () => {
+Given(/^Given que esteja na página de cadastro$/, () => {
 	Cadastro.acessar_pagina_login()
 });
 
