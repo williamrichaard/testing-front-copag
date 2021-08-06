@@ -25,7 +25,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Descrição breve do projeto compondo um paragrafo ou dois. 
+  Desafio final de fixação dos conteúdos da Trilha Automação de Testes / Compasso UOL
 </p>
 
 ## Funcionalidades
