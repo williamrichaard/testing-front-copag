@@ -12,11 +12,13 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Site testado](#site-testado)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
+:small_blue_diamond: [Como rodar os testes](#como-rodar-os-testes)
 
 ## Descrição do projeto 
 
@@ -42,12 +44,6 @@
 ## Pré-requisitos
 
 :warning: [Node](https://nodejs.org/en/download/)
-
-:warning: [Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
-
-...
-
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
 
 ## Como rodar a aplicação :arrow_forward:
 
