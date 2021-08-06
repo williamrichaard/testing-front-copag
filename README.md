@@ -20,6 +20,8 @@
 
 :small_blue_diamond: [Como rodar os testes](#como-rodar-os-testes)
 
+:small_blue_diamond: [Mapeamento das funcionalidades](#mapeamento-das-funcionalidades)
+
 ## Descrição do projeto 
 
 <p align="justify">
@@ -34,7 +36,9 @@
 
 :warning: Carrinho 
 
-:warning: Pagamento 
+:warning: Pedido
+
+:warning: Newsletter
 
 ## Site testado:
 
@@ -90,11 +94,11 @@ Limpar o html report dos testes:
 npm run cy:clear
 ```
 
-## Casos de Uso
+## Mapeamento das funcionalidades
 
-Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso de **gifs** aqui seria bem interessante. 
-
-Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
+<p align="center">
+  <img alt="Xmind" src="https://lh3.googleusercontent.com/uSQMp-YPnB2fVc5gQSCmEc3Lb4Z1ccDXMGTvRPNsqOuf0OQaQ55cIfJ4IlIm_8i4XY3Cd3zxb33d3trE3s_a9hqwAPU63XMbo3-6GOCMUSOgjC2vJ-vslMvN8lpXAcXtwNwBlT5wgc0fKca8ikM5sVeY4NikaNUylI0VnxQOOwhOIHs_kbu3u42he6Yho7Cxqs6hYWHvAGYXbWPR6TPEOl4d9Z1hqYoL0pxhee-uj20R6U3iAx8U3UZdFHKOJ4jbybGiaQPuFcs03xXUrORXu7H7fNpYLturDv9Zs_9LrhH6jJtELEUF6kZWMuwVx_ZsBvHWn8i_ZOOsyqrLL_jshfAdBhfroydLwpbzEVf4k43oVxtdPpeP3SEcI3kJ8qEukWStT3sLvmU6ndToO5hcTIYPTNz6sOySII_FE4mjkngmPW_pBlnSNKsJXKGLLgMxapK7dBcwz3q7tg6MukX6ME5i9LJbmEeQZROl-yWx1hyLirnzKNfT6HVBT7HT4Wv2LUETVv7N_AVAIIOclWSC7JAbZkIHK2FZeARDur5mvV6rHkktDuoOWGHbYtxxlD39ZvoRN-ywjc58ZQn8F6V1bENHeFIfKSji5xsoDJ9KRZbx4YBGyKZlLf2ZzyspvubHROUlxsNCImIMV6blwXhwdbJ6xB7DbCvZhobB8NeUFelGpCb3F67Q6lazmBLImKtrhdbNFcZP_n9Y5zGkma_d5jinYA=w1920-h791-no?authuser=0"/>
+</p>
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
