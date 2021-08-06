@@ -32,9 +32,9 @@
 
 :heavy_check_mark: Search
 
-:heavy_check_mark: Carrinho 
+:warning: Carrinho 
 
-:heavy_check_mark: Pagamento 
+:warning: Pagamento 
 
 ## Site testado:
 
