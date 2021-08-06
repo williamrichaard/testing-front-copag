@@ -128,9 +128,9 @@ Cypress.Commands.overwrite('type', (originalFn, subject, str, options) => {
 
 :memo: Automatização da funcionalidade Carrinho 
 
-:memo: Automatização da funcionalidade Pagamento 
+:memo: Automatização da funcionalidade Pedido
 
-:memo: Tarefa 3 
+:memo: Automatização da funcionalidade Newsletter
 
 ## Desenvolvedores/Contribuidores :octocat:
 
